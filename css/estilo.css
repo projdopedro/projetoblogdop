@@ -1,0 +1,128 @@
+/*Limpa formatação padrão para todos os navegadores*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #f3f3f3;
+}
+#navegacao{
+	background: #fff;
+	border-bottom: 1px solid #d8d9d8;
+	height: 45px;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+}
+#area_topo{
+	width: 720px;
+	margin: 0 auto;
+
+}
+#area_principal{
+	width: 720px;
+	margin: 55px auto 10px auto;
+}
+#logo{
+	float: left;
+}
+#menu{
+	float: right;
+	padding: 10px 0;
+}
+#postagem{
+	background: #fff;
+	padding: 10px;
+	margin-bottom: 10px;
+	color: #777;
+}
+h2{
+	color: #d9c941;
+	/*color: #888;*/
+}
+
+/***********************************/
+/*********Formatação do menu********/
+a{
+	text-decoration: none;
+	padding: 5px 10px;
+}
+/*Links não visitados*/
+a:link{
+	color: #d8d8d8;
+}
+
+/*Links visitados*/
+a:visited{
+	color: #d8d8d8;
+}
+
+/*Links hover*/
+a:hover{
+	background:  #b9c491;
+	color: #fff;
+}
+
+/*Linkis active*/
+a:active{
+	color: #535353;
+}
+
+/*Classes*/
+.corLogo1{
+	color: #d9c941;
+}
+.corLogo2{
+	color: #999;
+}
+.data_postagem{
+	font-size: 14px;
+	border-bottom: 1px solid #f4f4f4;
+	display: block;
+	padding-bottom: 10px
+	margin-bottom: 10px;
+}
+.img-postagem{
+	float: left;
+	margin: 0 10px 10px 0;
+}
+.postado_por{
+	border-left: 5px solid #d8d8d8;
+	padding-left: 5px;
+	display: block;
+	margin-top: 10px;
+	color: #999;
+}
+#rodape{
+	padding: 10px 0;
+	background: #fff;
+	border-bottom: 1px solid #d8d9d8;
+	height: 55px;
+	/*position: fixed;*/
+	width: 100%;
+	/*top: 0px;*/
+}
+#text-rodape{
+	margin-left: 0px;
+	padding: 10px;
+}
+h3{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 14px;
+	color: #999;
+	
+	
+	padding-left: 10px;
+	display: block;
+	margin-top: 10px;
+	text-align: center;
+
+}
+hr{
+	width: 100%;
+	
+	border: 0.02em solid #d9c941;
+}
